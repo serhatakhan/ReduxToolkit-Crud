@@ -26,5 +26,6 @@ Proje, **Redux Toolkit** kullanılarak geliştirilmiş bir görev yöneticisi uy
 
 ## Ekran Gifi
 
+![kayt2-ezgif com-video-to-gif-converter](https://github.com/serhatakhan/ReduxToolkit-Crud/assets/147662915/c0a32959-91e7-45c3-aae6-3135ba6abeb0)
 
 
