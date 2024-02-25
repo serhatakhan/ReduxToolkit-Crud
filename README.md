@@ -1,25 +1,30 @@
-# Redux Toolkit
+# Redux Toolkit CRUD
 
-- Klasik redux'a göre daha az kod yazarak aynı sonucu elde edebiliyoruz.
+Proje, **Redux Toolkit** kullanılarak geliştirilmiş bir görev yöneticisi uygulamasıdır. Redux Toolkit, Redux'u daha verimli ve kolay hale getirmek için tasarlanmış bir kütüphanedir ve bu proje onun gücünü ve kolaylığını sergilemekle birlikte kullanımını anlamayı amaçlamaktadır.
 
-- Dahili olarak thunk içerisinde gelir. 
+## Özellikler
 
-- Devtools eklentisi sayesinde proje geliştirirken store'u, reducer'ları, çalıştırılan aksiyonları izleyebiliyoruz.
+* **Görev Ekleme:** Yeni görevler kolayca eklenir. Görevlerin başlık, yazar, atanan kişi ve bitiş tarihi gibi önemli detayları bulunmaktadır.
 
-- Proje içerisinde state'i yönetmek bizim için daha kolay olacak.
+* **Görev Silme:** İstenen görevler kolaylıkla silinebilir. Bu sayede gereksiz veya tamamlanmış görevler veritabanından temizlenebilir.
+
+* **Görev Düzenleme:** Var olan görevlerin detayları düzenlenebilir. Bu özellik sayesinde görevlerin bilgileri güncellenebilir ve düzenlenebilir.
+
+* **Karanlık Tema Desteği:** Kullanıcı tercihine göre karanlık tema desteği sunulmaktadır. Bu özellik sayesinde uygulamanın görünümü kişiselleştirilebilir.
+
+## Kullanılan Teknolojiler
+
+**1. React:** Modern ve etkileşimli kullanıcı arayüzü geliştirmek için React kullanılmıştır.
+   
+**2. Redux Toolkit:** Uygulama durumunun yönetimi için Redux Toolkit tercih edilmiştir. Redux Toolkit, Redux'u daha basit ve etkili bir şekilde kullanmamızı sağlar.
+
+**3. Router Dom:** Sayaç ve Crud sayfaları arasındaki geçişleri sağlamak için kullanılmıştır.
+   
+**4. React-Bootstrap:** Hızlı ve kullanıcı dostu bir arayüz için React Bootstrap kullanılmıştır.
+   
+**5. UUID:** Benzersiz kimlikler oluşturmak için UUID kütüphanesi kullanılmıştır.
+
+## Ekran Gifi
 
 
-# Kurulum
 
-- npm i @reduxjs/toolkit
-- npm i react-redux
-
-- sonrasında store'u ve reducer'ları oluştur.
-
-
-# Slice
-
-- - > Redux Toolkit'in içerisinde yer alan tek bir noktada, hem reducer hem de action tanımlamamızı sağlayan yapıdır. 
-
-- - > Klasik redux'ta aksiyonları ayrı, reducer'ları ayrı dosyalarda tanımlıyorduk. Toolkit ile
-birlikte `Slice` içerisinde ikisinide tek noktada fazla kod yazmadan tanımlayabiliyoruz.
