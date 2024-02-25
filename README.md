@@ -1,6 +1,6 @@
 # Redux Toolkit CRUD
 
-Proje, **Redux Toolkit** kullanılarak geliştirilmiş bir görev yöneticisi uygulamasıdır. Redux Toolkit, Redux'u daha verimli ve kolay hale getirmek için tasarlanmış bir kütüphanedir ve bu proje onun gücünü ve kolaylığını sergilemekle birlikte kullanımını anlamayı amaçlamaktadır.
+Proje, **Redux Toolkit** kullanılarak geliştirilmiş bir görev yöneticisi uygulamasıdır. Redux Toolkit, Redux'u daha verimli ve kolay hale getirmek için tasarlanmış bir kütüphanedir ve geliştiricilerin Redux'u daha az kod yazarak kullanmalarını sağlamakla birlikte karmaşık yapıları daha kolay yönetmelerine imkan tanır. Bu proje Toolkit'in gücünü ve kolaylığını sergilemektedir. 
 
 ## Özellikler
 
